@@ -1,0 +1,35 @@
+<script teste>
+    var app = require('express')();
+  // passa o express para o http-server
+  var http = require('http').Server(app);
+  // passa o http-server par ao socketio
+    app.get('/', function(req, res){
+    res.sendFile(__dirname + '/index.html');
+  });
+  </script>
+<h1>criar novo cliente</h1>
+    <div class="jumbotron">
+     <h1> Bem Vindos </h1>
+         <h2>Preencha o seguintes campos:</h2>
+         <form>
+         <h3>Nome: <input type="text" name="Nome"></h3>
+           <h3>Morada: <input type="text" name="morada"></h3> 
+             <h3>Codigo-Postal:<input type="text" name="Codigo-Postal1"> - <input type="text" name="Codigo-Postal2"> </h3>
+            <h3> Telefone:<input type="text" name="Telefone">
+              <input type="reset" value="Apagar">
+              <input type="submit" value="criar">
+
+            </form>
+               <input type="button" value="butao" name="Button2" onclick=teste>
+        </h3>
+        <script>
+       
+        if (1<10) {
+            Nome.getTexto='ola';
+        }else {
+            morada.getTexto='adeus';
+        }
+        </script>
+        <script>
+        onclick.button2(teste);
+        </script>
