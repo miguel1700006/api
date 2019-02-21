@@ -1,0 +1,1 @@
+{"name":"cliente","base":"PersistedModel","idInjection":true,"options":{"validateUpsert":true},"properties":{"nome_cliente":{"type":"string","required":true},"morada":{"type":"string","required":true},"codigo_postal":{"type":"string","required":true},"telefone":{"type":"number","required":true}},"validations":[],"relations":{},"acls":[],"methods":{}}
