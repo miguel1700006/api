@@ -1,0 +1,1 @@
+{"name":"comida","base":"PersistedModel","idInjection":true,"options":{"validateUpsert":true},"properties":{"id_comida":{"type":"number","required":true},"nome_comida":{"type":"string","required":true},"tipo":{"type":"string","required":true},"preco":{"type":"number","required":true}},"validations":[],"relations":{},"acls":[],"methods":{}}
